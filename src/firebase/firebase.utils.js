@@ -9,7 +9,7 @@ const config = {
   storageBucket: "crwn-db-ec4a6.appspot.com",
   messagingSenderId: "22418993361",
   appId: "1:22418993361:web:288e13e8d6d6743e8c55f0",
-  measurementId: "${config.measurementId}",
+  measurementId: "${config.measurementId}", // eslint-disable-line
 };
 
 export const createUserProfileDocument = async (userAuth, additionalData) => {
